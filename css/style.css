@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+
+*{
+
+    font-family: 'Quicksand';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width:1140px;
+    margin:0 auto;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    position:relative;
+}
+a .link-sm{
+    color: #717F91;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 80;
+    font-weight: 800;
+
+}
+.btn-primary{
+    background-color: #007107;
+    padding: 16px 40px;
+    color:#ffffff;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.secondary-primary{
+    background-color: transparent;
+    padding: 16px 40px;
+    color:#727272;
+    border: 2px solid;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.nav-brand{
+    position: absolute;
+    transform: translateX(-50%); 
+    left:50%;
+
+}
+.nav-links{
+    width: 25%;
+    justify-content: space-between;
+    display: flex;
+    align-items:center;
+}
+
+section.hero{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.colum-ilustration-hero img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -9999;
+}
+.column-text-heading{
+    width: 50%;
+}
+.hero-heading{
+    font-size: 64px;
+}
+
+p.text-p{
+    font-size: 20px;
+    margin: 24px 0;
+    color: #717f91;
+    line-height: 38px;
+}
